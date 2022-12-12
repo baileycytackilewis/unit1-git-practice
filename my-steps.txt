@@ -116,7 +116,30 @@ branch 'main' set up to track 'origin/main'.
 baileycytacki-lewis@Baileys-MacBook-Air unit1-git-practice % 
 
 ### Step 6
+baileycytacki-lewis@Baileys-MacBook-Air unit1-git-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   my-steps.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+baileycytacki-lewis@Baileys-MacBook-Air unit1-git-practice % git add .
+baileycytacki-lewis@Baileys-MacBook-Air unit1-git-practice % git commit -m 'starting a menu'
+[main 44c4aa0] starting a menu
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+baileycytacki-lewis@Baileys-MacBook-Air unit1-git-practice % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 740 bytes | 740.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/baileycytackilewis/unit1-git-practice.git
+   470730b..44c4aa0  main -> main
 
 
 ### Step 7
